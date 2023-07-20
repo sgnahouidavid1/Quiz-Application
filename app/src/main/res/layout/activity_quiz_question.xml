@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".QuizQuestionActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="15dp"
+        >
+        <!--Question -->
+        <TextView
+            android:id="@+id/tvQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:text="@string/question_1"
+            >
+        </TextView>
+        <ImageView
+            android:id="@+id/ivImage"
+            android:layout_width="wrap_content"
+            android:layout_height="360dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/kanye_img"
+            >
+        </ImageView>
+        <!--Progressbar-->
+        <LinearLayout
+            android:id="@+id/llProBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_marginTop="10dp"
+                android:max="10"
+                android:minHeight="50dp"
+                android:progress="0"
+                android:indeterminate="false"
+                >
+            </ProgressBar>
+            <TextView
+                android:id="@+id/tv_Progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:padding="15dp"
+                android:textColorHint="@color/yankeensBlue"
+                android:textSize="22sp"
+                tools:text ="0/10"
+                >
+            </TextView>
+
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tvOptionOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:background="@drawable/default_option_border_bg"
+            android:padding="15dp"
+            android:textSize="22sp"
+            android:textColor="@color/GainsBoro"
+            tools:text="Option One"
+            >
+        </TextView>
+        <TextView
+            android:id="@+id/tvOptionTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:background="@drawable/default_option_border_bg"
+            android:padding="15dp"
+            android:textSize="22sp"
+            android:textColor="@color/GainsBoro"
+            tools:text="Option Two"
+            >
+        </TextView>
+        <TextView
+            android:id="@+id/tvOptionThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:background="@drawable/default_option_border_bg"
+            android:padding="15dp"
+            android:textSize="22sp"
+            android:textColor="@color/GainsBoro"
+            tools:text="Option Three"
+            >
+        </TextView>
+        <TextView
+            android:id="@+id/tvOptionFour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:background="@drawable/default_option_border_bg"
+            android:padding="15dp"
+            android:textSize="22sp"
+            android:textColor="@color/GainsBoro"
+            tools:text="Option Four"
+            >
+            <!--tools is used to tests something in the design of the application and not when the
+             the application is running-->
+
+        </TextView>
+        <!--Submit Button-->
+        <Button
+            android:id="@+id/submitBt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:background="@drawable/button_border_bg"
+            android:text="@string/submit"
+            android:textSize="22sp"
+            android:textColor="@color/GainsBoro"
+            android:textStyle="bold"
+            >
+        </Button>
+    </LinearLayout>
+</ScrollView>

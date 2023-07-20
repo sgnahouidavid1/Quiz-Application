@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lapisLazuli">#14649F</color>
+    <color name="yankeensBlue">#122247</color>
+    <color name="graniteGrey">#666561</color>
+    <color name="GainsBoro">#F3F3F3</color>
+    <color name="philippineSilver">#BAB8B2</color>
+    <color name="CorrectGreen">#14BD17</color>
+    <color name="WrongRed">#A61C1C</color>
+</resources>

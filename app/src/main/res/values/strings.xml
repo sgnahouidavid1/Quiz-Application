@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Quiz application</string>
+    <string name="quiz_application">Quiz Application!</string>
+    <string name="welcome">Welcome to the Knowledge Quiz-app</string>
+    <string name="please_enter_in_your_name">Please enter in your name</string>
+    <string name="First_name">First Name</string>
+    <string name="start">Start</string>
+    <string name="Last_name">Last Name</string>
+    <string name="submit">Submit</string>
+    <string name="question_1">Question 1</string>
+    <string name="quiz_result">Quiz Result</string>
+    <string name="results">Results</string>
+    <string name="hey_congratulation">Hey Congratulation !!!</string>
+    <string name="username">Username</string>
+    <string name="score">Your score was 9 out of 10</string>
+    <string name="tryAgain"> TRY AGAIN </string>
+
+</resources>

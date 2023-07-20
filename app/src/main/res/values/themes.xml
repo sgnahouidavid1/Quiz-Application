@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.QuizApplication" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/yankeensBlue</item>
+
+    </style>
+    <!-- getting rid of the action bar in the main activity -->
+    <style name="QuizApplicationTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/yankeensBlue</item>
+    </style>
+</resources>
